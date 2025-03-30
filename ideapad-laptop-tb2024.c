@@ -2202,6 +2202,8 @@ static const struct wmi_device_id ideapad_wmi_ids[] = {
 	  &ideapad_wmi_context_esc }, /* ThinkBook 16+ 2024 IMH */
 	{ "077c4a1f-e344-11ee-a4f6-40c2ba413e67",
 	  &ideapad_wmi_context_esc }, /* ThinkBook 2024 AMD */
+	{ "0bfd13ac-9742-11ef-a4f7-40c2ba945a4f",
+	  &ideapad_wmi_context_esc }, /* ThinkBook 14 G6+ AHP */
 	{},
 };
 MODULE_DEVICE_TABLE(wmi, ideapad_wmi_ids);
